@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="styles.css">
+<title>Album Zabáló</title>
+<link rel="icon" href="vecteezy_illustration-vectorielle-de-disque-vinyle-isolee-sur-fond-blanc_9314864.png" type="image/png">
+</head>
+<body>
+    <div id="oldal">
+        <div id="bal">
+            <div id="cim">
+                <h1><img src="vecteezy_illustration-vectorielle-de-disque-vinyle-isolee-sur-fond-blanc_9314864.png" height="110px"></h1>
+                <div class="cimkep"></div>
+                <h2>Album<br> Zabáló</h2>
+            </div>
+            <div id="menu">
+                <p>menü</p>
+                <ul>
+                    <li class="aktualis"><a href="index.html">Nyitó oldal</a></li>
+                    <li><a href="elerhetosegek.html">Elérhetőség</a></li>
+                    <li><a href="esemenyek.html">Események</a></li>
+                    <li><a href="bakelitek.html">Bakelitek</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="jobb">
+            <h1>Új megjelenések!</h1><br>
+            <h2>Magyar megejelenések</h2>
+            <table cellspacing="20px">
+                <tr>
+                    <td><div class="gallery">
+                        <div class="gallery-item" onclick="window.location.href='Azi.html'">
+                          <img src="Azi.png" alt="Skatulya I.">
+                        </div></td>
+                    <td><div class="gallery">
+                        <div class="gallery-item" onclick="window.location.href='index.html'">
+                          <img src="Manu.jpg" alt="Torz">
+                        </div></td>
+                    <td><div class="gallery">
+                        <div class="gallery-item" onclick="window.location.href='index.html'">
+                          <img src="Kisé.png" alt="BandoBabySeason">
+                        </div></div></td>
+                    <div class="overlay">
+                        <h2></h2>
+                      </div>
+                </tr>  
+                <tr id="center">
+                    <td>Azahriah - Skatulya I.<br><button class="button" onclick="toggleMusic('Azi')" style="margin-left: 10px;">Belehallgatok</button></td>
+                    <td>Manuel - Torz<br><button class="button" onclick="toggleMusic('manu')" style="margin-left: 10px;">Belehallgatok</button></td>
+                    <td>Kisé - BandoBabySeason<br><button class="button" onclick="toggleMusic('kisé')" style="margin-left: 10px;">Belehallgatok</button></td>
+                </tr>            
+                <tr>
+                    <td><div class="gallery">
+                        <div class="gallery-item" onclick="window.location.href='index.html'">
+                          <img src="Hofi.png" alt="0 Mixtape">
+                        </div></td>
+                    <td><div class="gallery">
+                        <div class="gallery-item" onclick="window.location.href='index.html'">
+                          <img src="Pogi.jpg" alt="Vagy Mindent Vagy Semmit">
+                        </div></td>
+                    <td><div class="gallery">
+                        <div class="gallery-item" onclick="window.location.href='index.html'">
+                          <img src="Dany.jpg" alt="Ezer Nap">
+                        </div></div></td>
+                </tr>         
+                <tr id="center">
+                    <td>Beton.Hofi - 0<br><button class="button" onclick="toggleMusic('beton')" style="margin-left: 10px;">Belehallgatok</button></td>
+                    <td>Pogány Induló - Vagy Mindent Vagy Semmit<br><button class="button" onclick="toggleMusic('pogi')" style="margin-left: 10px;">Belehallgatok</button></td>
+                    <td>T.Danny - Ezer Nap<br><button class="button" onclick="toggleMusic('dany')" style="margin-left: 10px;">Belehallgatok</button></td>
+                </tr>
+
+            </table><br>
+
+            <h2>Nemzetközi megejelenések</h2><br>
+            <table cellspacing="20px">
+
+                <tr>
+                    <td><div class="gallery">
+                        <div class="gallery-item" onclick="window.location.href='index.html'">
+                          <img src="Metro2.jpg" alt="WE STILL DONT TRUST YOU">
+                        </div></td>
+                    <td><div class="gallery">
+                        <div class="gallery-item" onclick="window.location.href='index.html'">
+                          <img src="Metro1.png" alt="WE DONT TRUST YOU">
+                        </div></td> 
+                    <td><div class="gallery">
+                        <div class="gallery-item" onclick="window.location.href='index.html'">
+                          <img src="yeat.png" alt="2093">
+                        </div></div></td>
+                </tr>
+                <tr id="center">
+                    <td>Metro Boomin x Future - <br>WE STILL DONT TRUST YOU<br><button class="button" onclick="toggleMusic('westill')" style="margin-left: 10px;">Belehallgatok</button></td>
+                    <td>Metro Boomin x Future -<br> WE DONT TRUST YOU<br><button class="button" onclick="toggleMusic('like')" style="margin-left: 10px;">Belehallgatok</button></td>
+                    <td>Yeat - 2093<br><button class="button" onclick="toggleMusic('iluv')" style="margin-left: 10px;">Belehallgatok</button></td>
+                </tr>         
+                <tr>
+                    <td><div class="gallery">
+                        <div class="gallery-item" onclick="window.location.href='index.html'">
+                          <img src="Luciano.png" alt="Seductive">
+                        </div></td>
+                    <td><div class="gallery">
+                        <div class="gallery-item" onclick="window.location.href='index.html'">
+                          <img src="21.png" alt="American Dream">
+                        </div></td>
+                    <td><div class="gallery">
+                        <div class="gallery-item" onclick="window.location.href='index.html'">
+                          <img src="Kencarson.png" alt="A Great Chaos">
+                        </div></div></td>
+                </tr>       
+                <tr id="center">
+                        <td>Luciano - Seductive<br><button class="button" onclick="toggleMusic('germans')" style="margin-left: 10px;">Belehallgatok</button></td>
+                        <td>21Savage - American Dream<br><button class="button" onclick="toggleMusic('redrum')" style="margin-left: 10px;">Belehallgatok</button></td>
+                        <td>Ken Carson - A Great Chaos<br><button class="button" onclick="toggleMusic('ken')" style="margin-left: 10px;">Belehallgatok</button></td>
+                </tr>
+            </table>
+            </div>
+
+            <script>
+                var Azi = new Audio('Azi.mp3');
+                var manu = new Audio('Manu.mp3');
+                var kisé = new Audio('kisé.mp3');
+                var beton = new Audio('beton.mp3');
+                var pogi = new Audio('pogi.mp3');
+                var dany = new Audio('dany.mp3');
+                var westill = new Audio('Westill.mp3');
+                var like = new Audio('like.mp3');
+                var iluv = new Audio('iluv.mp3');
+                var germans = new Audio('2germans.mp3');
+                var redrum = new Audio('redrum.mp3');
+                var ken = new Audio('ken.mp3');
+            
+                var isPlayingAzi = false;
+                var isPlayingManu = false;
+                var isPlayingKisé = false;
+                var isPlayingBeton = false;
+                var isPlayingPogi = false;
+                var isPlayingDany = false;
+                var isPlayingWestill = false;
+                var isPlayingLike = false;
+                var isPlayingIluv = false;
+                var isPlayingGermans = false;
+                var isPlayingRedrum = false;
+                var isPlayingKen = false;
+            
+                function toggleMusic(audioId) {
+                    if (audioId === 'Azi') {
+                        if (!isPlayingAzi) {
+                            Azi.volume = 0.5;
+                            Azi.play();
+                            isPlayingAzi = true;
+                        } else {
+                            Azi.pause();
+                            Azi.currentTime = 0;
+                            isPlayingAzi = false;
+                        }
+                    } else if (audioId === 'manu') {
+                        if (!isPlayingManu) {
+                            manu.volume = 0.5;
+                            manu.play();
+                            isPlayingManu = true;
+                        } else {
+                            manu.pause();
+                            manu.currentTime = 0;
+                            isPlayingManu = false;
+                        }
+                    } else if (audioId === 'kisé') {
+                        if (!isPlayingKisé) {
+                            kisé.volume = 0.5;
+                            kisé.play();
+                            isPlayingKisé = true;
+                        } else {
+                            kisé.pause();
+                            kisé.currentTime = 0;
+                            isPlayingKisé = false;
+                        }
+                    
+
+                } else if (audioId === 'beton') {
+                        if (!isPlayingBeton) {
+                            beton.volume = 0.5;
+                            beton.play();
+                            isPlayingBeton = true;
+                        } else {
+                            beton.pause();
+                            beton.currentTime = 0;
+                            isPlayingBeton = false;
+                        }
+                    } else if (audioId === 'pogi') {
+                        if (!isPlayingPogi) {
+                            pogi.volume = 0.5;
+                            pogi.play();
+                            isPlayingPogi = true;
+                        } else {
+                            pogi.pause();
+                            pogi.currentTime = 0;
+                            isPlayingPogi = false;
+                        }
+                    } else if (audioId === 'dany') {
+                        if (!isPlayingDany) {
+                            dany.volume = 0.5;
+                            dany.play();
+                            isPlayingDany = true;
+                        } else {
+                            dany.pause();
+                            dany.currentTime = 0;
+                            isPlayingDany = false;
+                        }
+                    } else if (audioId === 'westill') {
+                        if (!isPlayingWestill) {
+                            westill.volume = 0.5;
+                            westill.play();
+                            isPlayingWestill = true;
+                        } else {
+                            westill.pause();
+                            westill.currentTime = 0;
+                            isPlayingWestill = false;
+                        }
+                    } else if (audioId === 'like') {
+                        if (!isPlayingLike) {
+                            like.volume = 0.5;
+                            like.play();
+                            isPlayingLike = true;
+                        } else {
+                            like.pause();
+                            like.currentTime = 0;
+                            isPlayingLike = false;
+                        }
+                    } else if (audioId === 'iluv') {
+                        if (!isPlayingIluv) {
+                            iluv.volume = 0.5;
+                            iluv.play();
+                            isPlayingIluv = true;
+                        } else {
+                            iluv.pause();
+                            iluv.currentTime = 0;
+                            isPlayingIluv = false;
+                        }
+                    } else if (audioId === 'redrum') {
+                        if (!isPlayingRedrum) {
+                            redrum.volume = 0.5;
+                            redrum.play();
+                            isPlayingRedrum = true;
+                        } else {
+                            redrum.pause();
+                            redrum.currentTime = 0;
+                            isPlayingRedrum = false;
+                        }
+                    } else if (audioId === 'germans') {
+                        if (!isPlayingGermans) {
+                            germans.volume = 0.5;
+                            germans.play();
+                            isPlayingGermans = true;
+                        } else {
+                            germans.pause();
+                            germans.currentTime = 0;
+                            isPlayingGermans = false;
+                        }
+                    } else if (audioId === 'ken') {
+                        if (!isPlayingKen) {
+                            ken.volume = 0.5;
+                            ken.play();
+                            isPlayingKen = true;
+                        } else {
+                            ken.pause();
+                            ken.currentTime = 0;
+                            isPlayingKen = false;
+                        }
+                    }
+                }
+            </script>
+
+
+        </div>
+</body>
+</html>

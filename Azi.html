@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="styles.css">
+<title>Album Zabáló</title>
+<link rel="icon" href="vecteezy_illustration-vectorielle-de-disque-vinyle-isolee-sur-fond-blanc_9314864.png" type="image/png">
+</head>
+<body>
+    <div id="oldal">
+        <div id="bal">
+            <div id="cim">
+                <h1><img src="vecteezy_illustration-vectorielle-de-disque-vinyle-isolee-sur-fond-blanc_9314864.png" height="110px"></h1>
+                <div class="cimkep"></div>
+                <h2>Album<br> Zabáló</h2>
+            </div>
+            <div id="menu">
+                <p>menü</p>
+                <ul>
+                    <li class="aktualis"><a href="index.html">Nyitó oldal</a></li>
+                    <li><a href="elerhetosegek.html">Elérhetőség</a></li>
+                    <li><a href="esemenyek.html">Események</a></li>
+                    <li><a href="bakelitek.html">Bakelitek</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="jobb">
+            <h1>Azahriah - Skatulya I.</h1>
+            <img src="portre.jpg" height="300px" align="right" style="margin: 30px;" onmouseover="playMusic('Azi')" onmouseout="stopMusic()">
+            <table cellspacing="10px">
+                <tr>
+                    <td id="center">"Tetszik, vagy sem, Azahriah megint mindenki előtt két lépéssel jár"<br>Értékelés: 10/10<br><a href="https://thetheory.blog.hu/2024/04/26/tetszik_vagy_sem_azahriah_megint_mindenki_elott_ket_lepessel_jar">The Theory</a></td>
+                    <td><div class="gallery">
+                        <div class="gallery-item" onclick="window.location.href='Azi.html'">
+                          <img src="Azi.png" alt="Skatulya I.">
+                        </div></td>
+                    <td id="center">"Kevés az újdonság, sokkal több a kiszólás"<br><a href="https://telex.hu/after/2024/04/19/azahriah-skatulya-i-lemezkritika">Telex After</a></td>
+                <tr id="center">
+                    <td><a href="https://www.youtube.com/watch?v=loR9Y-c0C8U&list=OLAK5uy_kObCxDe40kRNQlzd-av94sH80OATeMl-0">Youtube</a></td>
+                    <td><a href="https://open.spotify.com/album/5u9MCFoebxeT8zyJk7ubYw?si=SGOMhDETSf6rx-SomN-inw">Spotify</a></td>
+                    <td><a href="https://soundcloud.com/zzrzr425/azahriah-skatulya-i?si=54f8fafa83b14892813d7c0de53afe29&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing">Soundcloud</a></td>
+                </tr>
+            </table><br>
+            <h1>Munkássága</h1>
+            <div Id="munkassag">
+            <p>Azahriah, also known as <i>Paul Street</i>, is a self-made <u>Hungarian</u> musician and YouTuber born on January 28th, 2002.</p><p> According to his record label he has been playing guitar since he was a child, but at the end of 2017, he started to take writing and sound mixing more seriously. By 2019, he already had a couple of independent releases under his belt.</p>
+
+                <p>He released his first project, <b>I’m Worse</b> in 2020, and his first signed album in 2021, <b>camouflage</b>, under <i>Supermanagement</i>.</p>
+
+                <p><u>Azahriah and DESH</u> came out with a collaborative album in 2022, called <b>A ló túloldalán</b>. <u>Attila released</u> an EP called <b>silbak</b> in 2022, and an album, <b>Memento</b> in 2023.</p><br><center>- Genius.com -</center></p><br>
+            
+            <img src="puskas.jpg" height="800px">
+            </div>
+
+            <h1>Saját koncertfelvétel</h1>
+            <center>
+            <video id="myVideo" width="500" height="340" controls>
+                <source src="koncert.mp4" type="video/mp4">
+              </video>
+              <video id="puskas" width="500" height="340" controls>
+                <source src="puskas.mp4" type="video/mp4">
+              </video>
+              <video id="puskas2" width="500" height="340" controls>
+                <source src="puskas2.mp4" type="video/mp4">
+              </video>
+              
+              <script>
+                var video = document.getElementById("myVideo");
+                video.autoplay = true;
+                video.muted = true;
+                video.loop = true;
+                video.load();
+              </script>
+              <script>
+                var video = document.getElementById("puskas");
+                video.autoplay = true;
+                video.muted = true;
+                video.loop = true;
+                video.load();
+              </script>
+              <script>
+                var video = document.getElementById("puskas2");
+                video.autoplay = true;
+                video.muted = true;
+                video.loop = true;
+                video.load();
+              </script>
+              </center>
+
+              <script>
+                var audio = new Audio();
+        
+                function playMusic(audioName) {
+                    audio.src = 'Azi.mp3';
+                    audio.play();
+                }
+        
+                function stopMusic() {
+                    audio.pause();
+                    audio.currentTime = 0;
+                }
+            </script>
+  
+    </div>
+</body>
+</html>
+
+
+
